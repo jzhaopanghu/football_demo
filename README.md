@@ -159,8 +159,11 @@ public fun transfer(from:&signer,to:&signer) acquires FootBallStar{
 #### 单元测试
 
 **1.配合account模块根据address创建测试用户**
+
 **2.给用户A创建一张C罗球星卡，并设置金额为300**
+
 **3.创建币，且给用户A和用户B一人发放500个币**
+
 **4.进行交易，将用户A下的球星卡C罗转让给用户B，用户B赋给用户A对应的币**
 ```move
  #[test(user_a = @0x1, user_b = @0x2)]
