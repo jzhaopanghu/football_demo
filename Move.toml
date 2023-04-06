@@ -1,6 +1,6 @@
 [package]
 name = "football_demo"
-version = "0.0.0"
+version = "0.0.1"
 upgrade_policy = "compatible"
 
 
@@ -10,4 +10,4 @@ MoveStdlib = { local = "../move-stdlib" }
 AptosFramework= { local = "../aptos-framework" }
 
 [addresses]
-sender =  "0x1"
+sender =  "0x3929de9dabd020b078cf30d609e5ca73a63562cc0e9f20d5a82a56859c9f6e9d"
