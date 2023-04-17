@@ -15,7 +15,7 @@ module sender::football{
 
 
      // info
-    struct FootBallStar has key,drop{
+    struct FootBallStar has key{
         name: string::String,
         country: string::String,
         position: u8,
